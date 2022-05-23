@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'  
 })  
 export class ChatService {  
-  private chatUrl = environment.baseUrl + 'api/Chat';  
+  private chatUrl = environment.baseUrl + '/api/Chat';  
   
   constructor(private http: HttpClient) { }  
   
